@@ -1,0 +1,21 @@
+{
+  "name": "twitter-sequelize",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "seed": "cd server && cd db && node seed.js",
+    "functions": "cd server && cd middlewares && node functions.js",
+    "start": "cd server && nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20",
+    "sequelize": "^6.25.3",
+    "sqlite3": "^5.1.2"
+  }
+}
